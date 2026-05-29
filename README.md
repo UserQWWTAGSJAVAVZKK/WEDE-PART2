@@ -1,4 +1,4 @@
-# WEDE-PART2
+ WEDE-PART2
 Student Information
  Greg Omorefe
  Student Number: 10538053
@@ -36,7 +36,7 @@ Student Information
  Headings: Georgia
 
  How I Built This
-I used Visual Studio Code to write all my code. I made the HTML files first, then added CSS to make everything look nice.
+ I used Visual Studio Code to write all my code. I made the HTML files first, then added CSS to make everything look nice.
 
  Changes I Made
  29 May 2026:** Fixed all CSS and image path errors
@@ -71,5 +71,5 @@ Tools
  Google Chrome to test everything
 
 Harvard References
-Pexels. (2026). *Free Stock Photos*. Available at: https://www.pexels.com (Accessed: 29 May 2026).
-Google. (2026). *Google Maps Embed API*. Available at: https://developers.google.com/maps (Accessed: 29 May 2026).
+Pexels. (2026). Free Stock Photos. Available at: https://www.pexels.com (Accessed: 29 May 2026).
+Google. (2026). Google Maps Embed API*. Available at: https://developers.google.com/maps (Accessed: 29 May 2026).
