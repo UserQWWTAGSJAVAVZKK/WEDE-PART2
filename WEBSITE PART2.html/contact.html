@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | The Daily Loaf Bakery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #4A3728;
+            background-color: #FDF5E6;
+        }
+        header {
+            background-color: #E76F51;
+            padding: 1rem;
+            text-align: center;
+        }
+        header h1 {
+            color: white;
+            margin-bottom: 0.5rem;
+            font-size: 1.8rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.75rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .center {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+            color: #E76F51;
+            font-family: Georgia, serif;
+        }
+        .two-columns {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin: 2rem 0;
+        }
+        .two-columns > div {
+            flex: 1;
+            min-width: 250px;
+        }
+        .location {
+            background-color: white;
+            border-radius: 15px;
+            padding: 1.5rem;
+            text-align: left;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-left: 5px solid #E76F51;
+        }
+        .location h3 {
+            color: #E76F51;
+            margin-top: 0;
+        }
+        .location p {
+            margin: 0.5rem 0;
+        }
+        .direction-link {
+            display: inline-block;
+            margin-top: 0.75rem;
+            color: #E76F51;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .direction-link:hover {
+            text-decoration: underline;
+        }
+        .map-container {
+            margin: 1.5rem 0;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+        form {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: 2rem auto;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 0.75rem;
+            margin-top: 0.25rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+        }
+        .button {
+            display: inline-block;
+            background-color: #E76F51;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-top: 1rem;
+            width: 100%;
+        }
+        .button:hover {
+            background-color: #d35f3f;
+        }
+        footer {
+            background-color: #4A3728;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.2rem;
+            }
+            nav a {
+                margin: 0 0.4rem;
+                font-size: 0.9rem;
+            }
+            .two-columns {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>The Daily Loaf Bakery</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="center">Contact Us</h2>
+        <p class="center">Visit us at one of our locations or send us a message below.</p>
+
+        <div class="two-columns">
+            <div class="location">
+                <h3>📍 Main Bakery</h3>
+                <p><strong>Address:</strong><br>
+                15 Kloof Street<br>
+                Gardens, Cape Town<br>
+                8001, South Africa</p>
+                <p><strong>Phone:</strong> (021) 456-7890</p>
+                <p><strong>Hours:</strong><br>
+                Monday - Friday: 7am - 5pm<br>
+                Saturday: 8am - 2pm<br>
+                Sunday: Closed</p>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=15+Kloof+Street+Cape+Town+8001" target="_blank" class="direction-link">🚗 Get Directions to Main Bakery →</a>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.123456789012!2d18.409367!3d-33.928456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc67623456789%3A0x123456789abcdef!2s15%20Kloof%20St%2C%20Gardens%2C%20Cape%20Town%2C%208001!5e0!3m2!1sen!2sza!4v1700000000000!5m2!1sen!2sza" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="location">
+                <h3>🛒 Market Stall (Weekends Only)</h3>
+                <p><strong>Address:</strong><br>
+                Oranjezicht City Farm<br>
+                76 Waterkant Street<br>
+                Green Point, Cape Town<br>
+                8005, South Africa</p>
+                <p><strong>Phone:</strong> (021) 789-1234</p>
+                <p><strong>Hours:</strong><br>
+                Saturday: 8am - 1pm<br>
+                Sunday: 9am - 12pm</p>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=76+Waterkant+Street+Cape+Town+8005" target="_blank" class="direction-link">🚗 Get Directions to Market Stall →</a>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.234567890123!2d18.419367!3d-33.918456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc67634567890%3A0x987654321abcdef!2s76%20Waterkant%20St%2C%20Green%20Point%2C%20Cape%20Town%2C%208005!5e0!3m2!1sen!2sza!4v1700000000000!5m2!1sen!2sza" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="center">Send Us a Message</h3>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="button">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 The Daily Loaf Bakery. All rights reserved.</p>
+        <p>Greg Omorefe | Student: 10538053 | Group 4</p>
+    </footer>
+
+</body>
+</html>

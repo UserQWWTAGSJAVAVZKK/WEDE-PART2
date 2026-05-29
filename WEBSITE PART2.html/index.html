@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | The Daily Loaf Bakery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #4A3728;
+            background-color: #FDF5E6;
+        }
+        header {
+            background-color: #E76F51;
+            padding: 1rem;
+            text-align: center;
+        }
+        header h1 {
+            color: white;
+            margin-bottom: 0.5rem;
+            font-size: 1.8rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.75rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .hero-image-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        .hero-image {
+            width: 80%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .hero-text {
+            text-align: center;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+        .button {
+            display: inline-block;
+            background-color: #E76F51;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .button:hover {
+            background-color: #d35f3f;
+        }
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            text-align: center;
+        }
+        .center {
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 1rem;
+            color: #E76F51;
+            font-family: Georgia, serif;
+        }
+        h3 {
+            margin: 1rem 0 0.5rem 0;
+            color: #4A3728;
+            font-family: Georgia, serif;
+        }
+        main p {
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+        .row {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            text-align: center;
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .card-images {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+        }
+        .card-images img {
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #4A3728;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.2rem;
+            }
+            nav a {
+                margin: 0 0.4rem;
+                font-size: 0.9rem;
+            }
+            .hero-image {
+                width: 95%;
+            }
+            .card {
+                min-width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>The Daily Loaf Bakery</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-image-container">
+            <img class="hero-image" src="image5.jpg" alt="Fresh bread" onerror="this.style.display='none'">
+        </div>
+        <div class="hero-text">
+            <h2 class="center">Freshly Baked Daily</h2>
+            <p class="center">Traditional recipes. Local ingredients. Baked with love.</p>
+            <div class="button-container">
+                <a href="products.html" class="button">View Our Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <h2 class="center">Welcome to The Daily Loaf</h2>
+        <p class="center">Welcome to The Daily Loaf Bakery, where every loaf tells a story and every bite feels like home. We are a family-owned bakery that first opened our doors in 2015, and since then, we have been dedicated to serving our community with the freshest, most delicious breads and pastries made from scratch every single day.</p>
+
+        <p class="center">At The Daily Loaf, we believe that great bread starts with great ingredients. That is why we work closely with local farmers and suppliers to source the finest flour, butter, eggs, and other natural ingredients. We never use preservatives or artificial flavours — just honest, wholesome baking the way it used to be done.</p>
+
+        <p class="center">Our team arrives early every morning, long before the sun rises, to mix, knead, and shape our doughs by hand. From our famous sourdough, which has been fermenting with the same starter for over five years, to our flaky butter croissants and our soft, sweet celebration cakes — everything we make is crafted with patience, passion, and pride.</p>
+
+        <p class="center">Whether you are stopping by for a loaf of our hearty rye bread, treating yourself to a blueberry muffin with your morning coffee, or planning a party and need a show-stopping cake — we are here for you. Come visit us at our Main Bakery or find us at the Neighbourhood Farmers Market on weekends.</p>
+
+        <div class="row">
+            <div class="card">
+                <div class="card-images">
+                    <img src="image2.jpg" alt="Bread" onerror="this.style.display='none'">
+                    <img src="image3.jpg" alt="Bread" onerror="this.style.display='none'">
+                    <img src="image4.jpg" alt="Bread" onerror="this.style.display='none'">
+                </div>
+                <h3>Artisan Breads</h3>
+                <p>Sourdough, rye, and wholewheat.</p>
+            </div>
+            <div class="card">
+                <div class="card-images">
+                    <img src="image6.jpg" alt="Pastry" onerror="this.style.display='none'">
+                    <img src="image7.jpg" alt="Pastry" onerror="this.style.display='none'">
+                    <img src="image8.jpg" alt="Pastry" onerror="this.style.display='none'">
+                </div>
+                <h3>Butter Pastries</h3>
+                <p>Croissants, danishes, and muffins.</p>
+            </div>
+            <div class="card">
+                <div class="card-images">
+                    <img src="image9.jpg" alt="Cake" onerror="this.style.display='none'">
+                    <img src="image10.jpg" alt="Cake" onerror="this.style.display='none'">
+                    <img src="image11.jpg" alt="Cake" onerror="this.style.display='none'">
+                </div>
+                <h3>Custom Cakes</h3>
+                <p>Birthday and celebration cakes.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 The Daily Loaf Bakery. All rights reserved.</p>
+        <p>Greg Omorefe | Student: 10538053 | Group 4</p>
+    </footer>
+
+</body>
+</html>
