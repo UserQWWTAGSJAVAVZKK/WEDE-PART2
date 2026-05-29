@@ -39,10 +39,10 @@ Student Information
  I used Visual Studio Code to write all my code. I made the HTML files first, then added CSS to make everything look nice.
 
  Changes I Made
- 29 May 2026:** Fixed all CSS and image path errors
- 29 May 2026:** Moved CSS directly into each HTML file
- 29 May 2026:** Added live Google Maps to contact page
- 29 May 2026:** Added more products to products page
+ 29 May 2026: Fixed all CSS and image path errors
+ 29 May 2026: Moved CSS directly into each HTML file
+ 29 May 2026: Added live Google Maps to contact page
+ 29 May 2026: Added more products to products page
 
  Testing
 I tested my website in Google Chrome and Firefox. Everything works fine. The maps load properly and all the links go to the right pages.
